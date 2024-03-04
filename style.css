@@ -1,0 +1,61 @@
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+
+
+
+
+.bg-image{
+    position: relative;
+}
+
+.bg-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/img//background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(0.3em); /* Bulanıklık efekti */
+    z-index: -1; /* İçeriğin önünde olması için */
+}
+
+.container-fluid {
+    position: relative;
+    z-index: 1; /* Pseudo-elementin arkasında kalması için */
+}
+
+
+
+
+.buttons {
+    justify-content: center;
+    align-items: center; 
+       height: 100vh;
+       
+
+}
+
+
+
+.btn{
+    
+    letter-spacing: 0.1rem;
+    border: none;
+    background-image: linear-gradient(to right top, #311308, #4d261a, #6b3b28, #8a5236, #a96a45);  
+      padding: 1.5rem 4rem;
+      transition: background-image 0.3s ease; 
+
+}
+
+
+
+
