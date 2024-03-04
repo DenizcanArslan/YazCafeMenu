@@ -61,6 +61,15 @@ a{
     padding: 1rem 1.5rem;
 }
 
+footer{
+color: #3d190f;
+font-size: 1rem;
+}
 
-
+#profile{
+    text-transform: capitalize;
+    font-size: 0.7rem;
+    color: #3d190f;
+    text-decoration: underline;
+}
 
